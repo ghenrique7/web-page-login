@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+}
+
+.left-login {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-login h1 {
+    color: #77ffc0;
+    font-size: 3vw;
+}
+
+.right-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color: #00ff88;
+    font-weight: bold;
+    margin: 0;
+}
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #ffffde;
+    font-size: 1rem;
+    box-shadow: 0 10px 40px #00000056;
+    outline: none;
+}
+
+.textfield > label {
+    color: #ffffde;
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    width: 100%;
+    border-radius: 10px;
+    padding: 16px 0;
+    margin: 15px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2b1346;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px #00000056;
+}
+
