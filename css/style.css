@@ -58,6 +58,12 @@ body {
     font-weight: bold;
     margin: 0;
 }
+
+
+.card-login > h1:hover {
+    color: #ffffde;
+}
+
 .textfield {
     width: 100%;
     display: flex;
@@ -84,6 +90,10 @@ body {
     margin-bottom: 15px;
 }
 
+.textfield > input::placeholder {
+    color: #ddd;
+}
+
 .btn-login {
     width: 100%;
     border-radius: 10px;
@@ -98,6 +108,12 @@ body {
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0 10px 40px -12px #00000056;
+    transition: all 500ms ease;
+}
+
+.btn-login:hover {
+    background: #2b1346;
+    color: #ffffde;
 }
 
 .left-login-image {
@@ -141,6 +157,3 @@ body {
     }
 
 }
-
-
-
